@@ -14,12 +14,11 @@ function Header() {
                     href='/'>
                     Home
                 </a>
-                <Link
+                <link
                     className={style.menu_item}
-                    to='/AboutUs'>
+                    to='/aboutuss'>
                     About Us
-                </Link>
-
+                </link>
                 <a
                     className={style.menu_item}
                     href='/'>

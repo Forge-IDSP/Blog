@@ -1,7 +1,6 @@
 import { BrowserRouter as Router, Routes, Route } from "react-router-dom";
 import Home from "./pages/home.jsx";
 import Week1 from "./pages/week1.jsx";
-import AboutUs from "./pages/aboutUs.jsx";
 
 export default function App() {
     return (
@@ -17,7 +16,7 @@ export default function App() {
                 />
                 <Route
                     path='/aboutUs'
-                    element={<AboutUs />}
+                    element={<Week1 />}
                 />
             </Routes>
         </Router>

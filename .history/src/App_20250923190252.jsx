@@ -16,8 +16,8 @@ export default function App() {
                     element={<Week1 />}
                 />
                 <Route
-                    path='/aboutUs'
-                    element={<AboutUs />}
+                    path='/AboutUs'
+                    element={<aboutUs />}
                 />
             </Routes>
         </Router>

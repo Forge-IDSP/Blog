@@ -16,7 +16,7 @@ function Header() {
                 </a>
                 <Link
                     className={style.menu_item}
-                    to='/AboutUs'>
+                    to='/aboutUs'>
                     About Us
                 </Link>
 

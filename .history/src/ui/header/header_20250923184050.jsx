@@ -1,5 +1,4 @@
 import style from "./header.module.css";
-import { Link } from "react-router-dom";
 
 function Header() {
     return (
@@ -14,12 +13,11 @@ function Header() {
                     href='/'>
                     Home
                 </a>
-                <Link
+                <a
                     className={style.menu_item}
-                    to='/AboutUs'>
+                    href='/AboutUs'>
                     About Us
-                </Link>
-
+                </a>
                 <a
                     className={style.menu_item}
                     href='/'>
