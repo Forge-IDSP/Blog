@@ -1,0 +1,36 @@
+/* Top Bar Header Styling */
+
+/* Text Section Styling  */
+.sub_section {
+    background-color: #1c2c3e;
+    margin: 10px;
+    border-radius: 10px;
+}
+
+.section_header {
+    font-size: 32px;
+}
+
+.section_description {
+    justify-content: center;
+}
+
+/* Meet the team styling */
+
+.team_section {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.team_member_image {
+    width: 200px;
+    height: 400px;
+}
+
+/* Core Values section */
+
+.excerpt_container {
+    display: flex;
+    flex-direction: row;
+}
