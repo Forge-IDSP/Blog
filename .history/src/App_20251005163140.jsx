@@ -33,8 +33,8 @@ export default function App() {
                     element={<Week4 />}
                 />
                 <Route
-                    path='/week5'
-                    element={<Week5 />}
+                    path='/week1'
+                    element={<Week1 />}
                 />
                 <Route
                     path='/aboutUs'
