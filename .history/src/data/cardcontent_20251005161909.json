@@ -19,19 +19,5 @@
         "image": "/blog-image1.jpg",
         "text": "Week 3",
         "link": "/week3"
-    },
-    {
-        "id": "week4",
-        "title": "Advising and Re-Ideation ",
-        "image": "/blog-image1.jpg",
-        "text": "Week 4",
-        "link": "/week4"
-    },
-    {
-        "id": "User Research , Development Framwork and ",
-        "title": "ConnectHer and Forge",
-        "image": "/blog-image1.jpg",
-        "text": "Week 5",
-        "link": "/week5"
     }
 ]

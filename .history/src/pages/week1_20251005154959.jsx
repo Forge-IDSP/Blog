@@ -45,39 +45,11 @@ export default function Week1() {
                         , 5 Digital Design and Development students and 3
                         Fullstack students.
                     </p>
-                </section>
-                <section className={styles.content}>
-                    <h2>Meet the Team:</h2>
-                    <p>Design</p>
+
                     <div>
-                        <img src='/Camer.svg' />
-                        <img src='/Camer.svg' />
-                        <img src='/Camer.svg' />
-                        <img src='/Camer.svg' />
-                        <img src='/Camer.svg' />
-                    </div>
-                    <p>Developemnt</p>
-                    <div>
-                        <img src='/Camer.svg' />
-                        <img src='/Camer.svg' />
                         <img src='/Camer.svg' />
                     </div>
                 </section>
-
-                <section className={styles.content}>
-                    <h2>Whats happening next week:</h2>
-                    <p>
-                        What an exciting Week for Forge ! We are so ready to
-                        start tackling the UX/UI side of forge and finally Build
-                        a fully fledged Application.{" "}
-                    </p>
-                    <ul>
-                        <li>First Team Meeting</li>
-                        <li>ConnectHer</li>
-                    </ul>
-                </section>
-
-                <p>Thanks for checking in ! See you back here next week ! </p>
             </article>
         </>
     );

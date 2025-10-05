@@ -50,7 +50,7 @@ function AboutUs() {
                     </p>
                 </div>
                 <img
-                    src='/app-using.jpg'
+                    src='/Camera.svg'
                     alt='/'
                     className='section_image'></img>
             </div>
@@ -63,13 +63,11 @@ function AboutUs() {
                         Forge is build on the foundation of helping current high
                         school students and recent high school graduates --
                         especially those looking to get into trades-- with
-                        awarness and simplified information about trades in
-                        demand that aims to support them in their decision
-                        making process throughout their trades career.
+                        awarness
                     </p>
                 </div>
                 <img
-                    src='/trades-student.jpg'
+                    src='/Camera.svg'
                     alt='/'
                     className='section_image'></img>
             </div>

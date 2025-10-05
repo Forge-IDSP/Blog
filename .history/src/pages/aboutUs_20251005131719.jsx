@@ -50,7 +50,7 @@ function AboutUs() {
                     </p>
                 </div>
                 <img
-                    src='/app-using.jpg'
+                    src='/Camera.svg'
                     alt='/'
                     className='section_image'></img>
             </div>
@@ -60,16 +60,14 @@ function AboutUs() {
                         Who is Forge for?
                     </h2>
                     <p className='section_description'>
-                        Forge is build on the foundation of helping current high
-                        school students and recent high school graduates --
-                        especially those looking to get into trades-- with
-                        awarness and simplified information about trades in
-                        demand that aims to support them in their decision
-                        making process throughout their trades career.
+                        Forge is built for tradespeople of all backgrounds —
+                        from recent graduates entering the workforce to
+                        experienced workers who are looking for more stability,
+                        independence, and opportunity.
                     </p>
                 </div>
                 <img
-                    src='/trades-student.jpg'
+                    src='/Camera.svg'
                     alt='/'
                     className='section_image'></img>
             </div>

@@ -13,7 +13,7 @@
     background-color: var(--dark-grey);
     margin: 16px;
     border-radius: 10px;
-    padding: var(--space-regular);
+    padding: 16px;
     width: 70%;
     height: auto;
     align-self: center;

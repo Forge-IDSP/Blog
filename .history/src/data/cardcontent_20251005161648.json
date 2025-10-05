@@ -1,0 +1,16 @@
+[
+    {
+        "id": "week1",
+        "title": "Project Idea Presentation",
+        "image": "/blog-image1.jpg",
+        "text": "Week 1",
+        "link": "/week1"
+    },
+    {
+        "id": "week2",
+        "title": "Project Idea Presentation",
+        "image": "/blog-image1.jpg",
+        "text": "Week 2",
+        "link": "/week2"
+    }
+]

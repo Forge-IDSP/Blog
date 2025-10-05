@@ -50,7 +50,7 @@ function AboutUs() {
                     </p>
                 </div>
                 <img
-                    src='/app-using.jpg'
+                    src='/forge-logo.jpg'
                     alt='/'
                     className='section_image'></img>
             </div>

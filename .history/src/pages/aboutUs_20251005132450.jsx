@@ -50,7 +50,7 @@ function AboutUs() {
                     </p>
                 </div>
                 <img
-                    src='/app-using.jpg'
+                    src='/ui-example.png'
                     alt='/'
                     className='section_image'></img>
             </div>

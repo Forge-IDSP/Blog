@@ -50,7 +50,7 @@ function AboutUs() {
                     </p>
                 </div>
                 <img
-                    src='/app-using.jpg'
+                    src='/Camera.svg'
                     alt='/'
                     className='section_image'></img>
             </div>
@@ -69,7 +69,7 @@ function AboutUs() {
                     </p>
                 </div>
                 <img
-                    src='/trades-student.jpg'
+                    src='/Camera.svg'
                     alt='/'
                     className='section_image'></img>
             </div>
