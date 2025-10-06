@@ -1,8 +1,8 @@
 import styles from "./blogpost.module.css";
-import App from "../App.jsx";
+import "../App.css";
 import Header from "../ui/header/header.jsx";
 
-export default function Week1() {
+export default function Week3() {
     return (
         <>
             <Header />
@@ -15,8 +15,10 @@ export default function Week1() {
                 </figure>
 
                 <header className={styles.post_header}>
-                    <span className={styles.week}>Week 1</span>
-                    <h1 className={styles.title}>First Look at Forge</h1>
+                    <span className={styles.week}>Week 3</span>
+                    <h1 className={styles.title}>
+                        Competitive Analysis and Development Framework
+                    </h1>
                     <p className={styles.subtitle}>
                         Forge Pitch Presentation and Team Formation
                     </p>

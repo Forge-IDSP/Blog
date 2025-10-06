@@ -91,13 +91,11 @@ export default function Week2() {
                     <h2>Whats happening next week:</h2>
                     <ul>
                         <li>Competitive analysis</li>
-                        <li>Git Organization Created</li>
+                        <li>ConnectHer</li>
                     </ul>
                 </section>
 
-                <p>
-                    Thanks for joining us for another week ! See you next week !{" "}
-                </p>
+                <p>Thanks for checking in ! See you back here next week ! </p>
             </article>
         </>
     );

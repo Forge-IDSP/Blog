@@ -95,9 +95,7 @@ export default function Week2() {
                     </ul>
                 </section>
 
-                <p>
-                    Thanks for joining us for another week ! See you next week !{" "}
-                </p>
+                <p>Thanks for checking in ! See you back here next week ! </p>
             </article>
         </>
     );

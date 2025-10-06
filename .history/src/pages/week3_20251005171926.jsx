@@ -1,8 +1,8 @@
 import styles from "./blogpost.module.css";
-import App from "../App.jsx";
+import "../App.css";
 import Header from "../ui/header/header.jsx";
 
-export default function Week1() {
+export default function Week3() {
     return (
         <>
             <Header />
@@ -15,8 +15,10 @@ export default function Week1() {
                 </figure>
 
                 <header className={styles.post_header}>
-                    <span className={styles.week}>Week 1</span>
-                    <h1 className={styles.title}>First Look at Forge</h1>
+                    <span className={styles.week}>Week 3</span>
+                    <h1 className={styles.title}>
+                        Competitive Analysis and Development Framework
+                    </h1>
                     <p className={styles.subtitle}>
                         Forge Pitch Presentation and Team Formation
                     </p>
@@ -24,27 +26,28 @@ export default function Week1() {
 
                 <section className={styles.content}>
                     <h2 className={styles.section_header}>
-                        Forge Pitch Presentation
+                        Competitive analysis
                     </h2>
                     <p>
-                        This Fall semester on the 3rd of September. A pitch
-                        presentation took place whereby the forge team got to
-                        learn about all the amazing app ideas created by the
-                        Digital design and Development students and the
-                        Fullstack Development Students. We got the chance to
-                        pitch our app to some amazing well known industry
-                        professionals.
+                        With our team meeting kicking off last week ! We got
+                        right to work on our first task , a Competitive
+                        Analysis. With a general Idea of Forge and its features
+                        we decided to see what other direct and indirect
+                        competitors are doing .
                     </p>
-                    <p>
-                        A voting process took place whereby forge was selected
-                        as one of the final project ideas to be broken down and
-                        developed throughout the Fall 2025 semester.
-                    </p>
-                    <p>
-                        By the end of the presentations Forge had now 8 members
-                        , 5 Digital Design and Development students and 3
-                        Fullstack students.
-                    </p>
+                    <div>
+                        <table>
+                            <tr>
+                                <th>Competitor name</th>
+                            </tr>
+                            <tr>
+                                <th>Competitor name</th>
+                            </tr>
+                            <tr>
+                                <td>ForgeApp</td>
+                            </tr>
+                        </table>
+                    </div>
                 </section>
                 <section className={styles.content}>
                     <h2>Meet the Team:</h2>

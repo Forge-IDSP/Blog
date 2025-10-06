@@ -1,8 +1,8 @@
 import styles from "./blogpost.module.css";
-import App from "../App.jsx";
+import "../App.css";
 import Header from "../ui/header/header.jsx";
 
-export default function Week1() {
+export default function Week2() {
     return (
         <>
             <Header />
@@ -24,16 +24,15 @@ export default function Week1() {
 
                 <section className={styles.content}>
                     <h2 className={styles.section_header}>
-                        Forge Pitch Presentation
+                        First Team Meeting
                     </h2>
                     <p>
-                        This Fall semester on the 3rd of September. A pitch
-                        presentation took place whereby the forge team got to
-                        learn about all the amazing app ideas created by the
-                        Digital design and Development students and the
-                        Fullstack Development Students. We got the chance to
-                        pitch our app to some amazing well known industry
-                        professionals.
+                        The teamwork is all about communication, effort, and
+                        commitment. As we set out to have a great collaborative
+                        and communicative team we committed to creating a team
+                        charter. This team charter highlighted our individual
+                        expectation and team expectations, our roles, strengths
+                        and weaknesses, and methods of communication.
                     </p>
                     <p>
                         A voting process took place whereby forge was selected

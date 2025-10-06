@@ -81,23 +81,22 @@ export default function Week2() {
                         developers may have to support women in trades as well
                         as challenges that come with being a woman in trade.
                     </p>
-                    <p>
-                        Amazing presentation and we really appreciated the time
-                        and effort put into it !{" "}
-                    </p>
                 </section>
 
                 <section className={styles.content}>
                     <h2>Whats happening next week:</h2>
+                    <p>
+                        What an exciting Week for Forge ! We are so ready to
+                        start tackling the UX/UI side of forge and finally Build
+                        a fully fledged Application.{" "}
+                    </p>
                     <ul>
-                        <li>Competitive analysis</li>
-                        <li>Git Organization Created</li>
+                        <li>First Team Meeting</li>
+                        <li>ConnectHer</li>
                     </ul>
                 </section>
 
-                <p>
-                    Thanks for joining us for another week ! See you next week !{" "}
-                </p>
+                <p>Thanks for checking in ! See you back here next week ! </p>
             </article>
         </>
     );

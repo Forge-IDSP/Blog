@@ -51,6 +51,24 @@ export default function Week3() {
                                 <td>2023</td>
                             </tr>
                             <tr>
+                                <td>YMCA Toronto Witt</td>
+                                <td>
+                                    Help women in trades&technology look for
+                                    jobs and training programs in Toronto.
+                                </td>
+                                <td>2023</td>
+                            </tr>
+
+                            <tr>
+                                <td>YMCA Toronto Witt</td>
+                                <td>
+                                    Help women in trades&technology look for
+                                    jobs and training programs in Toronto.
+                                </td>
+                                <td>2012</td>
+                            </tr>
+
+                            <tr>
                                 <td>LivePlan</td>
                                 <td>
                                     Helps entrepreneurs and small business
@@ -60,57 +78,36 @@ export default function Week3() {
                                 </td>
                                 <td>2012</td>
                             </tr>
-                            <tr>
-                                <td>Futurepreneurs</td>
-                                <td>
-                                    Help young Canadian entrepreneurs to start,
-                                    expand or buy a business through loans,
-                                    mentorship and other resources.
-                                </td>
-                                <td>1993</td>
-                            </tr>
 
                             <tr>
-                                <td>Ownr</td>
+                                <td>YMCA Toronto Witt</td>
                                 <td>
-                                    Ownr helps people start and manage their own
-                                    business, by making legal work, registration
-                                    and complicated tasks easier.
+                                    Help women in trades&technology look for
+                                    jobs and training programs in Toronto.
                                 </td>
-                                <td>2017</td>
-                            </tr>
-
-                            <tr>
-                                <td>Upmetrics</td>
-                                <td>
-                                    To help people who have or want to start a
-                                    business, have an initial plan or a starting
-                                    point in a more efficient, fast and easy
-                                    way.
-                                </td>
-                                <td>2017</td>
+                                <td>2023</td>
                             </tr>
                         </table>
                     </div>
                 </section>
                 <section className={styles.content}>
-                    <h2>ConnectHer Presentation</h2>
-
-                    <p>
-                        With our first in class attendance on Wednesday
-                        afternoon we had the chance to listen to an amazing
-                        speaker from the ConnectHer Hub , Anna Lary which
-                        emphasised and explained to us better what the
-                        ConnectHer Hub really is , her experience being a woman
-                        in trade , opportunities that we as designers and
-                        developers may have to support women in trades as well
-                        as challenges that come with being a woman in trade.
-                    </p>
-                    <p>
-                        Amazing presentation and we really appreciated the time
-                        and effort put into it !{" "}
-                    </p>
+                    <h2>Meet the Team:</h2>
+                    <p>Design</p>
+                    <div>
+                        <img src='/Camer.svg' />
+                        <img src='/Camer.svg' />
+                        <img src='/Camer.svg' />
+                        <img src='/Camer.svg' />
+                        <img src='/Camer.svg' />
+                    </div>
+                    <p>Developemnt</p>
+                    <div>
+                        <img src='/Camer.svg' />
+                        <img src='/Camer.svg' />
+                        <img src='/Camer.svg' />
+                    </div>
                 </section>
+
                 <section className={styles.content}>
                     <h2>Whats happening next week:</h2>
                     <p>

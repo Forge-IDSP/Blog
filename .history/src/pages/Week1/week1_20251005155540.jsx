@@ -1,5 +1,5 @@
 import styles from "./blogpost.module.css";
-import App from "../App.jsx";
+import "../App.css";
 import Header from "../ui/header/header.jsx";
 
 export default function Week1() {

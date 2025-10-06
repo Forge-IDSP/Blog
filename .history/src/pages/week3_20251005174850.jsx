@@ -88,29 +88,29 @@ export default function Week3() {
                                     point in a more efficient, fast and easy
                                     way.
                                 </td>
-                                <td>2017</td>
+                                <td>20</td>
                             </tr>
                         </table>
                     </div>
                 </section>
                 <section className={styles.content}>
-                    <h2>ConnectHer Presentation</h2>
-
-                    <p>
-                        With our first in class attendance on Wednesday
-                        afternoon we had the chance to listen to an amazing
-                        speaker from the ConnectHer Hub , Anna Lary which
-                        emphasised and explained to us better what the
-                        ConnectHer Hub really is , her experience being a woman
-                        in trade , opportunities that we as designers and
-                        developers may have to support women in trades as well
-                        as challenges that come with being a woman in trade.
-                    </p>
-                    <p>
-                        Amazing presentation and we really appreciated the time
-                        and effort put into it !{" "}
-                    </p>
+                    <h2>Meet the Team:</h2>
+                    <p>Design</p>
+                    <div>
+                        <img src='/Camer.svg' />
+                        <img src='/Camer.svg' />
+                        <img src='/Camer.svg' />
+                        <img src='/Camer.svg' />
+                        <img src='/Camer.svg' />
+                    </div>
+                    <p>Developemnt</p>
+                    <div>
+                        <img src='/Camer.svg' />
+                        <img src='/Camer.svg' />
+                        <img src='/Camer.svg' />
+                    </div>
                 </section>
+
                 <section className={styles.content}>
                     <h2>Whats happening next week:</h2>
                     <p>
