@@ -23,8 +23,8 @@
 }
 
 .value_prop_image {
-    width: 800;
-    height: 450;
+    width='800'
+    height='450'
 }
 
 .header {
