@@ -52,7 +52,7 @@ function AboutUs() {
             </div>
             <div className='sub_section row_reverse'>
                 <div className='sub_section_excerpts'>
-                    <h2 className='section_header left_text'>
+                    <h2 className='section_header right_text'>
                         Who is Forge for?
                     </h2>
                     <p className='section_description'>
