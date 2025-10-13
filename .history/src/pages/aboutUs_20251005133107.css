@@ -1,0 +1,86 @@
+/* Top Bar Header Styling */
+
+.cover_image {
+    width: 50%;
+    height: auto;
+    padding: 16px;
+    align-self: center;
+}
+
+/* Text Section Styling  */
+.sub_section {
+    background-color: var(--dark-grey);
+    margin: 16px;
+    border-radius: 10px;
+    padding: 16px;
+    width: 70%;
+    height: auto;
+    align-self: center;
+}
+
+.left_text {
+    text-align: left;
+}
+
+.right_text {
+    text-align: right;
+}
+.row_regular {
+    display: flex;
+    flex-direction: row;
+}
+.row_reverse {
+    display: flex;
+    flex-direction: row-reverse;
+}
+.section_image {
+    margin: 16px;
+    width: auto;
+    height: 600px;
+    border-radius: var(--space-regular);
+}
+.section_header {
+    font-size: 32px;
+}
+
+.section_description {
+    text-align: justify;
+    font-size: 24px;
+}
+
+/* Meet the team styling */
+
+.team_section {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.team_member_image {
+    width: 200px;
+    height: 400px;
+}
+
+/* Core Values section */
+
+.excerpt_container {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+}
+.excerpt_section {
+    padding: 16px;
+}
+.excerpt_description {
+    text-align: justify;
+}
+
+/* Animations */
+.sub_section {
+    opacity: 0;
+    transform: translateY(50px);
+    transition: all 0.6s ease;
+}
+.sub_section.show {
+    opacity: 1;
+    transform: translateY(0);
+}
