@@ -26,6 +26,10 @@ function AboutUs() {
     return (
         <div className='page'>
             <Header />
+            {/* <img
+                src='/about-us.png'
+                alt='about us header image'
+                className='cover_image'></img> */}
 
             <h1 className='title'>About Us</h1>
 
@@ -52,7 +56,7 @@ function AboutUs() {
             </div>
             <div className='sub_section row_reverse'>
                 <div className='sub_section_excerpts'>
-                    <h2 className='section_header left_text'>
+                    <h2 className='section_header right_text'>
                         Who is Forge for?
                     </h2>
                     <p className='section_description'>
