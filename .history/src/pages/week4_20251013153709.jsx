@@ -50,13 +50,20 @@ export default function Week4() {
                         the challenges that individuals in trades may face.
                     </p>
                     <iframe
-                        style={{ border: "1px solid rgba(0, 0, 0, 0.1)" }}
+                        style={{
+                            border: "1px solid rgba(0, 0, 0, 0.1)",
+                            borderRadius: "12px",
+                        }}
                         width='800'
                         height='450'
-                        src='https://embed.figma.com/board/zNTjVz7VBRjQLa6UAMt4Om/User-Flow?embed-host=share'
+                        src='https://embed.figma.com/board/ienz8zgfiXvyibmh3fgcLS/Forge---Research---Development?node-id=0-1&embed-host=share'
                         allowFullScreen
-                        title='Forge User Flow FigJam'></iframe>
+                        title='Forge Research FigJam'></iframe>
 
+                    {/* <img
+                        src=''
+                        alt='brainstorming figjam board'
+                    /> */}
                     <p>
                         Wow! What a week ! This quote definitely sounds like a
                         good idea to remember this week

@@ -22,11 +22,6 @@
     display: block;
 }
 
-.value_prop_image {
-    width: 800;
-    height: 450;
-}
-
 .header {
     display: grid;
     gap: 0.5rem;

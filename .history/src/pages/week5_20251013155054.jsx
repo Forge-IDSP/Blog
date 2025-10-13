@@ -9,10 +9,10 @@ export default function Week5() {
             <Header />
             <article className={styles.post}>
                 <figure className={styles.hero}>
-                    <img
+                    {/* <img
                         src='/blog-image1.jpg'
                         alt='Project Idea Presentation'
-                    />
+                    /> */}
                 </figure>
 
                 <header className={styles.post_header}>
@@ -34,7 +34,7 @@ export default function Week5() {
                         finally vote on a new project idea! So this is what we
                         had at the end of our meeting
                     </p>
-                    <iframe
+                    {/* <iframe
                         style={{
                             border: "1px solid rgba(0, 0, 0, 0.1)",
                             borderRadius: "12px",
@@ -43,7 +43,7 @@ export default function Week5() {
                         height='450'
                         src='https://embed.figma.com/board/zNTjVz7VBRjQLa6UAMt4Om/User-Flow?node-id=0-1&embed-host=share'
                         allowFullScreen
-                        title='Forge User Flow FigJam'></iframe>
+                        title='Forge User Flow FigJam'></iframe> */}
 
                     <p>
                         With this new idea we were able to pitch it again to our

@@ -50,11 +50,11 @@ export default function Week5() {
                         advisor for feedback and finally based on that we were
                         able to move forward with our new idea !
                     </p>
-                    {/* <img
+                    <img
                         src='/value_proposition.png'
                         alt='Screenshot of new value proposition'
                         className='value_prop_image'
-                    /> */}
+                    />
                 </section>
                 <section className={styles.content}>
                     <h2 className={styles.section_header}>
