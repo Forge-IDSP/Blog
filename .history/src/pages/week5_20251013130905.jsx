@@ -15,7 +15,7 @@ export default function Week5() {
                 </figure>
 
                 <header className={styles.post_header}>
-                    <span className={styles.week}>Week 5</span>
+                    <span className={styles.week}>Week 1</span>
                     <h1 className={styles.title}>Visualization and Research</h1>
                     <p className={styles.subtitle}>
                         User Research , Development Framework and Wireframing
@@ -137,85 +137,6 @@ export default function Week5() {
                         works and doesn't work currently based on their
                         experience.
                     </p>
-                    <div>
-                        Check out our survey : <a href='/'> go to survey</a>
-                    </div>
-                </section>
-                <section className={styles.content}>
-                    <h2 className={styles.section_header}>
-                        New Competitive Analysis
-                    </h2>
-                    <p>
-                        With Forge now being a trades career awareness software
-                        and guidance software for high school students and
-                        recent high school graduates . We decided to conduct a
-                        new competitive analysis and here they are :
-                    </p>
-                    <div>
-                        <table>
-                            <tr>
-                                <th>Competitor name</th>
-                                <th>App/Website Purpose</th>
-                                <th>Year Founded</th>
-                            </tr>
-                            <tr>
-                                <td>Trade Up BC</td>
-                                <td>
-                                    BC funded platform connecting tradespeople
-                                    with BC post-secondary institutes; offers
-                                    microcredentials and short courses to
-                                    upgrade skills, and to adapt to new
-                                    technologies.
-                                </td>
-                                <td>2023</td>
-                            </tr>
-                            <tr>
-                                <td>Skilled Trades BC</td>
-                                <td>
-                                    They help employers, employees, industry,
-                                    and training providers to issue credentials,
-                                    manage apprenticeships, set program
-                                    standards, and increase opportunities in
-                                    trades.
-                                </td>
-                                <td>2012</td>
-                            </tr>
-                            <tr>
-                                <td>
-                                    STEP (Skilled Trades Employment Program)
-                                </td>
-                                <td>
-                                    to help prepare and place people into
-                                    construction trades careers. By giving them
-                                    training courses, resources and connections
-                                    to employers.
-                                </td>
-                                <td>1993</td>
-                            </tr>
-
-                            <tr>
-                                <td>Skills Ontario App</td>
-                                <td>
-                                    An app that supports students in finding
-                                    their career by matching their preferences
-                                    and quiz results to define careers in trades
-                                    and technology that fits their goals.
-                                </td>
-                                <td>2017</td>
-                            </tr>
-
-                            <tr>
-                                <td>Upmetrics</td>
-                                <td>
-                                    To help people who have or want to start a
-                                    business, have an initial plan or a starting
-                                    point in a more efficient, fast and easy
-                                    way.
-                                </td>
-                                <td>2017</td>
-                            </tr>
-                        </table>
-                    </div>
                 </section>
 
                 <section className={styles.content}>

@@ -63,11 +63,6 @@ export default function Week4() {
                     <ul>
                         <li>New Idea Generated - Forge Renewed</li>
                         <li>User Research Survey Created and Sent out</li>
-                        <li>
-                            Decision decision “ Mobile App or Web Application”
-                        </li>
-                        <li>Git Organization Updated</li>
-                        <li>Team meeting</li>
                     </ul>
                 </section>
 

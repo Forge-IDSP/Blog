@@ -37,44 +37,49 @@ export default function Week4() {
                         viable considering the ability for us to help users by
                         guiding them in creating a business as well.
                     </p>
+                    <p>
+                        A voting process took place whereby forge was selected
+                        as one of the final project ideas to be broken down and
+                        developed throughout the Fall 2025 semester.
+                    </p>
+                    <p>
+                        By the end of the presentations Forge had now 8 members
+                        , 5 Digital Design and Development students and 3
+                        Fullstack students.
+                    </p>
                 </section>
                 <section className={styles.content}>
-                    <h2 className={styles.section_header}>
-                        “Mission Idea Brainstorming”
-                    </h2>
-                    <p>
-                        We were now on a mission to figure out how to shape
-                        forge to become a viable product . So we took the rest
-                        of the week to brainstorm ideas and do some research on
-                        the challenges that individuals in trades may face.
-                    </p>
-                    <img
-                        src=''
-                        alt='brainstorming figjam board'
-                    />
-                    <p>
-                        Wow! What a week ! This quote definitely sounds like a
-                        good idea to remember this week
-                    </p>
+                    <h2>Meet the Team:</h2>
+                    <p>Design</p>
+                    <div>
+                        <img src='/Camer.svg' />
+                        <img src='/Camer.svg' />
+                        <img src='/Camer.svg' />
+                        <img src='/Camer.svg' />
+                        <img src='/Camer.svg' />
+                    </div>
+                    <p>Developemnt</p>
+                    <div>
+                        <img src='/Camer.svg' />
+                        <img src='/Camer.svg' />
+                        <img src='/Camer.svg' />
+                    </div>
                 </section>
 
                 <section className={styles.content}>
                     <h2>Whats happening next week:</h2>
+                    <p>
+                        What an exciting Week for Forge ! We are so ready to
+                        start tackling the UX/UI side of forge and finally Build
+                        a fully fledged Application.{" "}
+                    </p>
                     <ul>
-                        <li>New Idea Generated - Forge Renewed</li>
-                        <li>User Research Survey Created and Sent out</li>
-                        <li>
-                            Decision decision “ Mobile App or Web Application”
-                        </li>
-                        <li>Git Organization Updated</li>
-                        <li>Team meeting</li>
+                        <li>First Team Meeting</li>
+                        <li>ConnectHer</li>
                     </ul>
                 </section>
 
-                <p>
-                    Another week ! Another update ! That's all for today Forgers
-                    !😊
-                </p>
+                <p>Thanks for checking in ! See you back here next week ! </p>
             </article>
         </>
     );

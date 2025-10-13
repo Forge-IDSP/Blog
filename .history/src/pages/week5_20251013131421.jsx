@@ -194,7 +194,7 @@ export default function Week5() {
                             </tr>
 
                             <tr>
-                                <td>Skills Ontario App</td>
+                                <td>Ownr</td>
                                 <td>
                                     An app that supports students in finding
                                     their career by matching their preferences

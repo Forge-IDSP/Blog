@@ -113,7 +113,11 @@ export default function Week3() {
                 </section>
                 <section className={styles.content}>
                     <h2>Whats happening next week:</h2>
-
+                    <p>
+                        What an exciting Week for Forge ! We are so ready to
+                        start tackling the UX/UI side of forge and finally Build
+                        a fully fledged Application.{" "}
+                    </p>
                     <ul>
                         <li>Advisor Meeting</li>
                         <li>New Idea brainstorming</li>
@@ -121,10 +125,7 @@ export default function Week3() {
                     </ul>
                 </section>
 
-                <p>
-                    Another week ! Another update ! That's all for today Forgers
-                    !😊
-                </p>
+                <p>Thanks for checking in ! See you back here next week ! </p>
             </article>
         </>
     );

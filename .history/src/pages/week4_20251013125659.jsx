@@ -60,14 +60,14 @@ export default function Week4() {
 
                 <section className={styles.content}>
                     <h2>Whats happening next week:</h2>
+                    <p>
+                        What an exciting Week for Forge ! We are so ready to
+                        start tackling the UX/UI side of forge and finally Build
+                        a fully fledged Application.{" "}
+                    </p>
                     <ul>
-                        <li>New Idea Generated - Forge Renewed</li>
-                        <li>User Research Survey Created and Sent out</li>
-                        <li>
-                            Decision decision “ Mobile App or Web Application”
-                        </li>
-                        <li>Git Organization Updated</li>
-                        <li>Team meeting</li>
+                        <li>First Team Meeting</li>
+                        <li>ConnectHer</li>
                     </ul>
                 </section>
 

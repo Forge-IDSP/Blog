@@ -181,9 +181,7 @@ export default function Week5() {
                                 <td>2012</td>
                             </tr>
                             <tr>
-                                <td>
-                                    STEP (Skilled Trades Employment Program)
-                                </td>
+                                <td>Futurepreneurs</td>
                                 <td>
                                     to help prepare and place people into
                                     construction trades careers. By giving them
@@ -194,12 +192,11 @@ export default function Week5() {
                             </tr>
 
                             <tr>
-                                <td>Skills Ontario App</td>
+                                <td>Ownr</td>
                                 <td>
-                                    An app that supports students in finding
-                                    their career by matching their preferences
-                                    and quiz results to define careers in trades
-                                    and technology that fits their goals.
+                                    Ownr helps people start and manage their own
+                                    business, by making legal work, registration
+                                    and complicated tasks easier.
                                 </td>
                                 <td>2017</td>
                             </tr>

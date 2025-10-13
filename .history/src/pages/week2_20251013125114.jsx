@@ -58,6 +58,7 @@ export default function Week2() {
                         their own businesses.
                     </p>
                 </section>
+
                 <section className={styles.content}>
                     <h2>ConnectHer Presentation</h2>
 
