@@ -1,6 +1,6 @@
 import Header from "../ui/header/header";
 import Footer from "../ui/footer/footer";
-import "./contactUS.css";
+import styles from "./contactUS.module.css";
 
 function ContactUs() {
     return (
@@ -13,33 +13,33 @@ function ContactUs() {
                 features — we’re always listening.
             </p>
             <form className='contact_form'>
-                <label className='contact_label'>
+                <label className={styles.contact_form}>
                     Name:
                     <input
                         type='text'
-                        className='text_input'
+                        className={styles.contact_label}
                     />
                 </label>
 
-                <label className='contact_label'>
+                <label className={styles.contact_label}>
                     Email:
                     <input
                         type='text'
-                        className='text_input'
+                        className={styles.text_input}
                     />
                 </label>
-                <label className='contact_label'>
+                <label className={styles.contact_label}>
                     Subject:
                     <input
                         type='text'
-                        className='text_input'
+                        className={styles.text_input}
                     />
                 </label>
-                <label className='contact_label'>
+                <label className={styles.contact_label}>
                     Enter your Message:
                     <textarea
                         type='text'
-                        className='message_input'
+                        className={styles.message_input}
                     />
                 </label>
             </form>
