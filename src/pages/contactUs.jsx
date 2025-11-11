@@ -1,52 +1,56 @@
+import styles from "./contactUs.module.css";
 import Header from "../ui/header/header";
 import Footer from "../ui/footer/footer";
-import styles from "./contactUS.module.css";
 
-function ContactUs() {
+export default function ContactUs() {
     return (
         <div className='page'>
             <Header />
-            <h1 className='title'>Get in touch</h1>
-            <p className='subtitle'>
-                Your experience shapes the future of Forge.
-                <br /> Share your thoughts, report issues, or suggest new
-                features — we’re always listening.
-            </p>
-            <form className='contact_form'>
-                <label className={styles.contact_form}>
-                    Name:
-                    <input
-                        type='text'
-                        className={styles.contact_label}
-                    />
-                </label>
+            <div className={styles.container}>
+                <h1 className='title'>Contact Us</h1>
+                <p className='subtitle'>
+                    Have questions or feedback? <br />
+                    Reach out to us using the form below.
+                </p>
 
-                <label className={styles.contact_label}>
-                    Email:
-                    <input
-                        type='text'
-                        className={styles.text_input}
-                    />
-                </label>
-                <label className={styles.contact_label}>
-                    Subject:
-                    <input
-                        type='text'
-                        className={styles.text_input}
-                    />
-                </label>
-                <label className={styles.contact_label}>
-                    Enter your Message:
-                    <textarea
-                        type='text'
-                        className={styles.message_input}
-                    />
-                </label>
-            </form>
+                <form className={styles.contact_form}>
+                    <label className={styles.contact_label}>
+                        Name:
+                        <input
+                            type='text'
+                            className={styles.text_input}
+                            placeholder='Enter your name'
+                            required
+                        />
+                    </label>
 
+                    <label className={styles.contact_label}>
+                        Email:
+                        <input
+                            type='email'
+                            className={styles.text_input}
+                            placeholder='Enter your email'
+                            required
+                        />
+                    </label>
+
+                    <label className={styles.contact_label}>
+                        Message:
+                        <textarea
+                            className={styles.message_input}
+                            placeholder='Type your message here...'
+                            required
+                        />
+                    </label>
+
+                    <button
+                        type='submit'
+                        className={styles.submit_button}>
+                        Send Message
+                    </button>
+                </form>
+            </div>
             <Footer />
         </div>
     );
 }
-
-export default ContactUs;

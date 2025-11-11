@@ -26,50 +26,52 @@ function AboutUs() {
     return (
         <div className='page'>
             <Header />
+            <div className='container'>
+                <h1 className='title'>About Us</h1>
 
-            <h1 className='title'>About Us</h1>
-
-            <div className='sub_section row_regular'>
-                <div className='sub_section_excerpts'>
-                    <h2 className='section_header left_text'>
-                        What Forge Does?
-                    </h2>
-                    <p className='section_description'>
-                        Forge is a career pathway app that helps high school
-                        students from financially struggling households find
-                        stable, in-demand trades careers through clear career
-                        overviews, daily work examples, required skills, and
-                        income over time with the aim of making it easier for
-                        students to see the real opportunities and long-term
-                        benefits of trades. It aims to empower and support
-                        students throughout their decision making process.
-                    </p>
+                <div className='sub_section row_regular'>
+                    <div className='sub_section_excerpts'>
+                        <h2 className='section_header left_text'>
+                            What Forge Does?
+                        </h2>
+                        <p className='section_description'>
+                            Forge is a career pathway app that helps high school
+                            students from financially struggling households find
+                            stable, in-demand trades careers through clear
+                            career overviews, daily work examples, required
+                            skills, and income over time with the aim of making
+                            it easier for students to see the real opportunities
+                            and long-term benefits of trades. It aims to empower
+                            and support students throughout their decision
+                            making process.
+                        </p>
+                    </div>
+                    <img
+                        src='/app-using.jpg'
+                        alt='/'
+                        className='section_image'></img>
                 </div>
-                <img
-                    src='/app-using.jpg'
-                    alt='/'
-                    className='section_image'></img>
-            </div>
-            <div className='sub_section row_reverse'>
-                <div className='sub_section_excerpts'>
-                    <h2 className='section_header left_text'>
-                        Who is Forge for?
-                    </h2>
-                    <p className='section_description'>
-                        Forge is build on the foundation of helping current high
-                        school students and recent high school graduates --
-                        especially those looking to get into trades-- with
-                        awarness and simplified information about trades in
-                        demand that aims to support them in their decision
-                        making process throughout their trades career.
-                    </p>
+                <div className='sub_section row_reverse'>
+                    <div className='sub_section_excerpts'>
+                        <h2 className='section_header left_text'>
+                            Who is Forge for?
+                        </h2>
+                        <p className='section_description'>
+                            Forge is build on the foundation of helping current
+                            high school students and recent high school
+                            graduates -- especially those looking to get into
+                            trades-- with awarness and simplified information
+                            about trades in demand that aims to support them in
+                            their decision making process throughout their
+                            trades career.
+                        </p>
+                    </div>
+                    <img
+                        src='/trades-student.jpg'
+                        alt='/'
+                        className='section_image'></img>
                 </div>
-                <img
-                    src='/trades-student.jpg'
-                    alt='/'
-                    className='section_image'></img>
-            </div>
-            {/* <div className='sub_section'>
+                {/* <div className='sub_section'>
                 <h2 className='section_header'>Our Core Values</h2>
                 <div className='excerpt_container'>
                     <div className='excerpt_section'>
@@ -111,6 +113,7 @@ function AboutUs() {
                     </div>
                 </div>
             </div> */}
+            </div>
 
             <Footer />
         </div>

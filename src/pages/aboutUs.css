@@ -8,6 +8,10 @@
     border-radius: var(--space-regular);
 }
 
+.container {
+    margin-left: 400px;
+    margin-right: 400px;
+}
 /* Text Section Styling  */
 .sub_section {
     background-color: var(--dark-grey);
