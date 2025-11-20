@@ -2,6 +2,7 @@ import styles from "./blogpost.module.css";
 import "../App.css";
 import Header from "../ui/header/header.jsx";
 import Footer from "../ui/footer/footer.jsx";
+import LatestPosts from "../ui/latestPosts/latestPosts.jsx";
 
 export default function Week3() {
     return (
@@ -10,7 +11,7 @@ export default function Week3() {
             <article className={styles.post}>
                 <figure className={styles.hero}>
                     <img
-                        src='/blog-image1.jpg'
+                        src='/week3.png'
                         alt='Project Idea Presentation'
                     />
                 </figure>
@@ -126,6 +127,7 @@ export default function Week3() {
                     </p>
                 </section>
             </article>
+            <LatestPosts currentPostId='week3' />
             <Footer />
         </>
     );

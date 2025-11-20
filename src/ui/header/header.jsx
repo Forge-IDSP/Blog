@@ -10,7 +10,14 @@ const Navbar = () => {
                 {/* Logo */}
                 <Link
                     to='/'
-                    className={styles.logo}>
+                    className={styles.logo}
+                    onClick={() => {
+                        window.scrollTo({
+                            top: 0,
+                            left: 0,
+                            behavior: "smooth",
+                        });
+                    }}>
                     <svg
                         viewBox='0 0 226 53'
                         fill='none'

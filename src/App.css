@@ -90,7 +90,9 @@
     grid-template-columns: repeat(3, 1fr);
     gap: 2rem;
     background-color: var(--white);
-    padding: 3rem;
+    max-width: 1400px;
+    margin: 0 auto;
+    padding: 3rem 2rem;
     border-radius: 16px;
     align-items: center;
     justify-content: center;
@@ -103,7 +105,7 @@
 @media (max-width: 1300px) {
     .post_container {
         grid-template-columns: repeat(2, 1fr);
-        padding: 1.5rem;
+        padding: 1.5rem 2rem;
         gap: 1.5rem;
     }
 }

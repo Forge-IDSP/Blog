@@ -28,12 +28,28 @@
     box-shadow: 0 6px 14px rgba(0, 0, 0, 0.12);
 }
 
-.team-img {
+.team-img-wrapper {
     width: 110px;
     height: 110px;
+    margin: 0 auto 1rem;
+    border-radius: 8px;
+    overflow: hidden;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.team-img {
+    width: 110px;
+    height: auto;
     object-fit: cover;
+    object-position: center;
+    display: block;
+    border-radius: 8px;
     margin: 0;
     padding: 0;
+    box-shadow: none;
+    flex-shrink: 0;
 }
 
 .team-name {
