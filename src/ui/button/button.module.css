@@ -22,19 +22,35 @@
 
 /* Primary Variant */
 .primary {
-    background-color: var(--primary-500);
-    box-shadow: 0 4px 6px rgba(255, 115, 1, 0.25);
+    background: linear-gradient(
+            135deg,
+            rgba(255, 255, 255, 0.1) 0%,
+            rgba(0, 0, 0, 0.1) 100%
+        ),
+        var(--primary-500);
+    box-shadow: var(--inner-shadow);
 }
 
 .primary:hover:not(:disabled) {
-    background-color: var(--primary-600);
+    background: linear-gradient(
+            135deg,
+            rgba(255, 255, 255, 0.15) 0%,
+            rgba(0, 0, 0, 0.15) 100%
+        ),
+        var(--primary-600);
     transform: translateY(-1px);
-    box-shadow: 0 6px 12px rgba(255, 115, 1, 0.35);
+    box-shadow: var(--inner-shadow), 0 4px 8px rgba(0, 0, 0, 0.2);
 }
 
 .primary:active:not(:disabled) {
     transform: translateY(0);
-    box-shadow: 0 2px 4px rgba(255, 115, 1, 0.25);
+    background: linear-gradient(
+            135deg,
+            rgba(0, 0, 0, 0.2) 0%,
+            rgba(255, 255, 255, 0.05) 100%
+        ),
+        var(--primary-600);
+    box-shadow: var(--inner-shadow);
 }
 
 /* Secondary Variant */
