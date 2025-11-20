@@ -1,0 +1,32 @@
+.linkButton {
+    font-family: var(--font-family);
+    font-size: 0.875rem;
+    font-weight: 400;
+    color: var(--primary-500);
+    text-decoration: none;
+    display: inline-flex;
+    align-items: center;
+    transition: color 0.2s ease;
+}
+
+.linkButton:hover {
+    color: var(--primary-600);
+}
+
+.linkButton:visited {
+    color: var(--primary-500);
+}
+
+.linkButton:visited:hover {
+    color: var(--primary-600);
+}
+
+.arrow {
+    margin-left: 0.25rem;
+    transition: transform 0.2s ease;
+}
+
+.linkButton:hover .arrow {
+    transform: translateX(4px);
+}
+

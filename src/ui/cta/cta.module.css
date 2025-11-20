@@ -1,0 +1,70 @@
+.cta {
+    width: 100%;
+    background-color: var(--primary-500);
+    padding: 4rem 2rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.ctaContent {
+    max-width: 800px;
+    width: 100%;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    gap: 1.5rem;
+    align-items: center;
+}
+
+.ctaTitle {
+    font-family: var(--font-family);
+    font-size: 2.5rem;
+    font-weight: 700;
+    color: var(--white);
+    line-height: 1.2;
+    margin: 0;
+}
+
+.ctaDescription {
+    font-family: var(--font-family);
+    font-size: 1.125rem;
+    font-weight: 400;
+    color: var(--white);
+    line-height: 1.6;
+    margin: 0;
+    max-width: 600px;
+}
+
+.ctaButton {
+    margin-top: 0.5rem;
+}
+
+/* Responsive Design */
+@media (max-width: 968px) {
+    .cta {
+        padding: 3rem 1.5rem;
+    }
+
+    .ctaTitle {
+        font-size: 2rem;
+    }
+
+    .ctaDescription {
+        font-size: 1rem;
+    }
+}
+
+@media (max-width: 600px) {
+    .cta {
+        padding: 2.5rem 1rem;
+    }
+
+    .ctaTitle {
+        font-size: 1.75rem;
+    }
+
+    .ctaDescription {
+        font-size: 0.9rem;
+    }
+}

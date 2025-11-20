@@ -3,6 +3,7 @@ import Hero from "../ui/hero/hero.jsx";
 import Card from "../ui/card/card.jsx";
 import Footer from "../ui/footer/footer.jsx";
 import cardcontent from "../data/cardcontent.json";
+import CTA from "../ui/cta/cta";
 
 export default function Home() {
     return (
@@ -21,12 +22,17 @@ export default function Home() {
                         key={item.id}
                         title={item.title}
                         image={item.image}
-                        text={item.text}
+                        week={item.text}
                         link={item.link}
                     />
                 ))}
             </div>
-
+            <CTA
+                title='Ready To Forge Your Future?'
+                description='Join thousands of BC students discovering their perfect career in skilled trades through AI-powered simulations.'
+                buttonText='Try Forge Now'
+                buttonVariant='secondary'
+            />
             <Footer />
         </div>
     );
