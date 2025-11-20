@@ -1,31 +1,115 @@
-.header {
-    background-color: var(--primary-500);
+.navbar {
+    background-color: var(--black-500);
+    padding: 1rem 2rem;
+    width: 100%;
+    position: sticky;
+    top: 0;
+    z-index: 1000;
+    box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
+}
+
+.navbarContainer {
+    max-width: 1400px;
+    margin: 0 auto;
     display: flex;
-    justify-content: space-between;
     align-items: center;
-    padding: 1rem 3rem;
-    border-radius: 16px;
+    justify-content: space-between;
+    gap: 2rem;
 }
 
+/* Logo Styles */
 .logo {
-    width: 10rem;
-}
-
-.menu {
     display: flex;
-    gap: rem;
-}
-
-.menu_item {
-    font-size: 1.2rem;
+    align-items: center;
     text-decoration: none;
-    color: var(--white);
-    font-family: var(--font-family);
-    padding: 0.8rem;
+    cursor: pointer;
+    height: 40px;
 }
 
-.menu_item:hover {
-    font-weight: bold;
-    padding: 0.8rem;
-    border-radius: 8px;
+.logoSvg {
+    height: 100%;
+    width: auto;
+    display: block;
+}
+
+/* Navigation Links */
+.navLinks {
+    display: flex;
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    gap: 2.5rem;
+    align-items: center;
+    flex: 1;
+    justify-content: center;
+}
+
+.navLinks li {
+    margin: 0;
+}
+
+.navLinks a {
+    font-family: var(--font-family);
+    font-size: 1rem;
+    color: var(--white);
+    text-decoration: none;
+    transition: color 0.2s ease;
+    position: relative;
+    padding: 0.5rem 0;
+}
+
+.navLinks a:hover {
+    color: var(--primary-300);
+}
+
+.navLinks a::after {
+    content: "";
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    width: 0;
+    height: 2px;
+    background-color: var(--primary-500);
+    transition: width 0.3s ease;
+}
+
+.navLinks a:hover::after {
+    width: 100%;
+}
+
+/* Responsive Design */
+@media (max-width: 968px) {
+    .navbar {
+        padding: 1rem;
+    }
+
+    .navLinks {
+        gap: 1.5rem;
+    }
+
+    .navLinks a {
+        font-size: 0.9rem;
+    }
+}
+
+@media (max-width: 768px) {
+    .navbarContainer {
+        flex-wrap: wrap;
+        gap: 1rem;
+    }
+
+    .navLinks {
+        order: 3;
+        width: 100%;
+        justify-content: space-around;
+        gap: 0.5rem;
+    }
+
+    .navLinks a {
+        font-size: 0.85rem;
+    }
+
+    .logo {
+        height: 32px;
+    }
 }
