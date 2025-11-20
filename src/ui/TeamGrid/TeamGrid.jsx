@@ -3,11 +3,11 @@ import "./TeamGrid.css";
 export default function TeamGrid() {
     const team = [
         { name: "Bruna", title: "UI/UX Designer", img: "/bruna.png" },
-        { name: "Cesaria", title: "UI/UX Designer", img: "cesaria.png" },
-        { name: "Daniel", title: "UI/UX Designer", img: "daniel.png" },
-        { name: "Kunwar", title: "UI/UX Designer", img: "kunwar.png" },
-        { name: "Sophia", title: "UI/UX Designer", img: "sophia.png" },
-        { name: "Kyle", title: "Fullstack Developer", img: "kyle.png" },
+        { name: "Cesaria", title: "UI/UX Designer", img: "/cesaria.png" },
+        { name: "Daniel", title: "UI/UX Designer", img: "/daniel.png" },
+        { name: "Kunwar", title: "UI/UX Designer", img: "/kunwar.png" },
+        { name: "Sophia", title: "UI/UX Designer", img: "/sophia.png" },
+        { name: "Kyle", title: "Fullstack Developer", img: "/kyle.png" },
         {
             name: "Shabnam",
             title: "Fullstack Developer",
@@ -23,11 +23,13 @@ export default function TeamGrid() {
                     <div
                         className='team-card'
                         key={member.name}>
-                        <img
-                            src={member.img}
-                            alt={member.name}
-                            className='team-img'
-                        />
+                        <div className='team-img-wrapper'>
+                            <img
+                                src={member.img}
+                                alt={member.name}
+                                className='team-img'
+                            />
+                        </div>
                         <h3 className='team-name'>{member.name}</h3>
                         <p className='team-title'>{member.title}</p>
                     </div>

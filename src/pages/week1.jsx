@@ -2,6 +2,7 @@ import styles from "./blogpost.module.css";
 import "../App.css";
 import Header from "../ui/header/header.jsx";
 import Footer from "../ui/footer/footer.jsx";
+import LatestPosts from "../ui/latestPosts/latestPosts.jsx";
 import TeamGrid from "../ui/TeamGrid/TeamGrid.jsx";
 
 export default function Week1() {
@@ -43,6 +44,7 @@ export default function Week1() {
         <p>It's a pleasure to meet you. Stay tuned for more updates!</p>
         </section>
       </article>
+      <LatestPosts currentPostId="week1" />
       <Footer />
     </>
   );
