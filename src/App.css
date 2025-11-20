@@ -32,6 +32,7 @@
     --black-300: #727271;
     --black-400: #575655;
     --black-500: #2d2c2b;
+    --black-900: #131212;
 
     /* ----- SHADOWS ----- */
     --inner-shadow: 0 2px 4px rgba(0, 0, 0, 0.2) inset,
