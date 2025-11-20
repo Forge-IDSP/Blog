@@ -1,6 +1,8 @@
 import styles from "./blogpost.module.css";
 import "../App.css";
 import Header from "../ui/header/header.jsx";
+import Footer from "../ui/footer/footer.jsx";
+import LatestPosts from "../ui/latestPosts/latestPosts.jsx";
 
 export default function Week2() {
     return (
@@ -9,7 +11,7 @@ export default function Week2() {
             <article className={styles.post}>
                 <figure className={styles.hero}>
                     <img
-                        src='/blog-image1.jpg'
+                        src='/connecther.jpg'
                         alt='Project Idea Presentation'
                     />
                 </figure>
@@ -89,6 +91,8 @@ export default function Week2() {
                     </p>
                 </section>
             </article>
+            <LatestPosts currentPostId='week2' />
+            <Footer />
         </>
     );
 }

@@ -1,6 +1,8 @@
 import styles from "./blogpost.module.css";
 import "../App.css";
 import Header from "../ui/header/header.jsx";
+import Footer from "../ui/footer/footer.jsx";
+import LatestPosts from "../ui/latestPosts/latestPosts.jsx";
 import React from "react";
 
 export default function Week5() {
@@ -10,7 +12,7 @@ export default function Week5() {
             <article className={styles.post}>
                 <figure className={styles.hero}>
                     <img
-                        src='/blog-image1.jpg'
+                        src='/Competitive Analysis.png'
                         alt='Project Idea Presentation'
                     />
                 </figure>
@@ -241,6 +243,8 @@ export default function Week5() {
                     <p>Thanks for checking in! See you back here next week!</p>
                 </section>
             </article>
+            <LatestPosts currentPostId='week5' />
+            <Footer />
         </>
     );
 }
