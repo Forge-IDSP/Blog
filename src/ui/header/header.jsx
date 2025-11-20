@@ -1,21 +1,23 @@
 import React from "react";
+import { Link } from "react-router-dom";
 import styles from "./header.module.css";
 import Button from "../button/button";
 
 const Navbar = () => {
-    const handleLogoClick = (e) => {
-        e.preventDefault();
-        window.scrollTo({ top: 0, behavior: "smooth" });
-    };
-
     return (
         <nav className={styles.navbar}>
             <div className={styles.navbarContainer}>
                 {/* Logo */}
-                <a
-                    href='/'
+                <Link
+                    to='/'
                     className={styles.logo}
-                    onClick={handleLogoClick}>
+                    onClick={() => {
+                        window.scrollTo({
+                            top: 0,
+                            left: 0,
+                            behavior: "smooth",
+                        });
+                    }}>
                     <svg
                         viewBox='0 0 226 53'
                         fill='none'
@@ -57,7 +59,7 @@ const Navbar = () => {
                             </clipPath>
                         </defs>
                     </svg>
-                </a>
+                </Link>
 
                 {/* Navigation Links */}
                 <ul className={styles.navLinks}>
