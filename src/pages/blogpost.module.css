@@ -76,15 +76,144 @@
     text-decoration: underline;
 }
 
+.content h2 {
+    font-size: clamp(1.5rem, 2.5vw, 2rem);
+    font-weight: 700;
+    color: var(--black-500);
+    margin-top: 2rem;
+    margin-bottom: 1rem;
+    font-family: var(--font-family);
+}
+
+.content ul,
+.content ol {
+    padding-left: 1.5rem;
+    margin: 1rem 0;
+}
+
+.content li {
+    margin: 0.5rem 0;
+}
+
+/* Table Styles */
+.content table {
+    width: 100%;
+    border-collapse: collapse;
+    margin: 1.5rem 0;
+    font-size: 0.95rem;
+    background-color: var(--white);
+    box-shadow: 0 2px 8px rgba(0, 0, 0, 0.08);
+    border-radius: 8px;
+    overflow: hidden;
+}
+
+.content table th {
+    background-color: var(--black-500);
+    color: var(--white);
+    padding: 1rem;
+    text-align: left;
+    font-weight: 600;
+    font-family: var(--font-family);
+}
+
+.content table td {
+    padding: 1rem;
+    border-bottom: 1px solid var(--black-100);
+    font-family: var(--font-family);
+}
+
+.content table tr:last-child td {
+    border-bottom: none;
+}
+
+.content table tr:nth-child(even) {
+    background-color: var(--offwhite-500);
+}
+
+.content table tr:hover {
+    background-color: var(--black-50);
+}
+
 @media (max-width: 968px) {
     .post {
         padding: 2rem 1.5rem;
+    }
+
+    .content {
+        font-size: 1rem;
+    }
+
+    .content h2 {
+        font-size: 1.75rem;
+        margin-top: 1.5rem;
     }
 }
 
 @media (max-width: 600px) {
     .post {
         padding: 2rem 1rem;
+        gap: 1rem;
+    }
+
+    .content {
+        font-size: 0.95rem;
+        line-height: 1.6;
+    }
+
+    .content h2 {
+        font-size: 1.5rem;
+        margin-top: 1.25rem;
+        margin-bottom: 0.75rem;
+    }
+
+    .content ul,
+    .content ol {
+        padding-left: 1.25rem;
+    }
+
+    /* Table Mobile Styles - Horizontal Scroll */
+    .tableWrapper {
+        overflow-x: auto;
+        -webkit-overflow-scrolling: touch;
+        margin: 1rem -1rem;
+        padding: 0 1rem;
+        scrollbar-width: thin;
+        scrollbar-color: var(--black-200) transparent;
+    }
+
+    .tableWrapper::-webkit-scrollbar {
+        height: 8px;
+    }
+
+    .tableWrapper::-webkit-scrollbar-track {
+        background: var(--black-50);
+        border-radius: 4px;
+    }
+
+    .tableWrapper::-webkit-scrollbar-thumb {
+        background: var(--black-300);
+        border-radius: 4px;
+    }
+
+    .content table {
+        min-width: 600px;
+        font-size: 0.85rem;
+        margin: 0;
+    }
+
+    .content table th,
+    .content table td {
+        padding: 0.75rem 0.5rem;
+    }
+
+    .content table th {
+        font-size: 0.8rem;
+        white-space: nowrap;
+    }
+
+    .content table td {
+        font-size: 0.8rem;
+        word-wrap: break-word;
     }
 }
 

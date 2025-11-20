@@ -37,7 +37,7 @@ export default function Week3() {
                         we decided to see what other direct and indirect
                         competitors are doing.
                     </p>
-                    <div>
+                    <div className={styles.tableWrapper}>
                         <table>
                             <tr>
                                 <th>Competitor name</th>
