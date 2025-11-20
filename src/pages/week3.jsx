@@ -1,6 +1,7 @@
 import styles from "./blogpost.module.css";
 import "../App.css";
 import Header from "../ui/header/header.jsx";
+import Footer from "../ui/footer/footer.jsx";
 
 export default function Week3() {
     return (
@@ -125,6 +126,7 @@ export default function Week3() {
                     </p>
                 </section>
             </article>
+            <Footer />
         </>
     );
 }

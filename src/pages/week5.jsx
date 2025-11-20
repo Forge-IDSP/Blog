@@ -1,6 +1,7 @@
 import styles from "./blogpost.module.css";
 import "../App.css";
 import Header from "../ui/header/header.jsx";
+import Footer from "../ui/footer/footer.jsx";
 import React from "react";
 
 export default function Week5() {
@@ -241,6 +242,7 @@ export default function Week5() {
                     <p>Thanks for checking in! See you back here next week!</p>
                 </section>
             </article>
+            <Footer />
         </>
     );
 }
