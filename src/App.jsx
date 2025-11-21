@@ -1,6 +1,7 @@
 import { BrowserRouter as Router, Routes, Route } from "react-router-dom";
 import ScrollToTop from "./ui/scrollToTop/scrollToTop.jsx";
 import Home from "./pages/home.jsx";
+import Blog from "./pages/blog.jsx";
 import Week1 from "./pages/week1.jsx";
 import Week2 from "./pages/week2.jsx";
 import Week3 from "./pages/week3.jsx";
@@ -24,6 +25,10 @@ export default function App() {
                 <Route
                     path='/'
                     element={<Home />}
+                />
+                <Route
+                    path='/blog'
+                    element={<Blog />}
                 />
                 <Route
                     path='/week1'

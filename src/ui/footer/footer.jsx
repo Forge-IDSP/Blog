@@ -1,4 +1,6 @@
+import { Link } from "react-router-dom";
 import styles from "./footer.module.css";
+import { scrollToSection } from "../../utils/scrollToSection";
 
 function Footer() {
     return (
@@ -59,13 +61,34 @@ function Footer() {
                         <h3 className={styles.linkHeading}>Product</h3>
                         <ul className={styles.linkList}>
                             <li>
-                                <a href='#about'>About</a>
+                                <Link
+                                    to='/'
+                                    onClick={(e) => {
+                                        e.preventDefault();
+                                        scrollToSection('about');
+                                    }}>
+                                    About
+                                </Link>
                             </li>
                             <li>
-                                <a href='#features'>Features</a>
+                                <Link
+                                    to='/'
+                                    onClick={(e) => {
+                                        e.preventDefault();
+                                        scrollToSection('features');
+                                    }}>
+                                    Features
+                                </Link>
                             </li>
                             <li>
-                                <a href='#demo'>Demo</a>
+                                <Link
+                                    to='/'
+                                    onClick={(e) => {
+                                        e.preventDefault();
+                                        scrollToSection('demo');
+                                    }}>
+                                    Demo
+                                </Link>
                             </li>
                         </ul>
                     </div>
@@ -80,7 +103,7 @@ function Footer() {
                                 <a href='#team'>Team</a>
                             </li>
                             <li>
-                                <a href='#blog'>Blog</a>
+                                <Link to='/blog'>Blog</Link>
                             </li>
                             <li>
                                 <a href='#style-guide'>Style Guide</a>
