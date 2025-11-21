@@ -37,13 +37,14 @@
     display: flex;
     align-items: center;
     justify-content: center;
+    background-color: var(--offwhite-500);
 }
 
 .team-img {
-    width: 110px;
-    height: auto;
+    width: 100%;
+    height: 100%;
     object-fit: cover;
-    object-position: center;
+    object-position: center center;
     display: block;
     border-radius: 8px;
     margin: 0;

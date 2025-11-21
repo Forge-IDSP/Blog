@@ -16,6 +16,7 @@ import Week11 from "./pages/week11.jsx";
 import Week12 from "./pages/week12.jsx";
 import AboutUs from "./pages/aboutUs.jsx";
 import ContactUs from "./pages/contactUs.jsx";
+import Team from "./pages/team.jsx";
 
 export default function App() {
     return (
@@ -85,6 +86,10 @@ export default function App() {
                 <Route
                     path='/contactUs'
                     element={<ContactUs />}
+                />
+                <Route
+                    path='/team'
+                    element={<Team />}
                 />
             </Routes>
         </Router>

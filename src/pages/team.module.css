@@ -1,0 +1,41 @@
+.teamPage {
+    width: 100%;
+    background-color: var(--white);
+    padding: 4rem 2rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.teamContainer {
+    max-width: 1400px;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    gap: 3rem;
+    align-items: center;
+    text-align: center;
+}
+
+/* Tablet */
+@media (max-width: 968px) {
+    .teamPage {
+        padding: 3rem 1.5rem;
+    }
+
+    .teamContainer {
+        gap: 2rem;
+    }
+}
+
+/* Mobile */
+@media (max-width: 600px) {
+    .teamPage {
+        padding: 3rem 1rem;
+    }
+
+    .teamContainer {
+        gap: 1.5rem;
+    }
+}
+
