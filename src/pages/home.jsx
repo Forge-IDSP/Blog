@@ -1,8 +1,8 @@
 import Header from "../ui/header/header.jsx";
 import Hero from "../ui/hero/hero.jsx";
-import Card from "../ui/card/card.jsx";
+import AboutSection from "../ui/aboutSection/aboutSection.jsx";
+import FeaturesSection from "../ui/featuresSection/featuresSection.jsx";
 import Footer from "../ui/footer/footer.jsx";
-import cardcontent from "../data/cardcontent.json";
 import CTA from "../ui/cta/cta";
 
 export default function Home() {
@@ -10,23 +10,16 @@ export default function Home() {
         <div className='page'>
             <Header />
             <Hero
-                title='See behind the scenes'
-                subtitle='of the Forge design'
-                description='
-                Forge has surpassed several milestones—including the initial idea, implementation, testing, and presentation. Be a part of our journey and follow along as we share each step of the process!'
+                title='Explore Your Future'
+                subtitle='in Skilled Trades'
+                description='Forge uses AI to create gamified career simulations for BC high school students. Experience real-world trades scenarios before making your career decision.'
+                buttons={[
+                    { text: "Forge Your Future", variant: "primary" },
+                    { text: "How it Works", variant: "secondary" },
+                ]}
             />
-
-            <div className='post_container'>
-                {cardcontent.map((item) => (
-                    <Card
-                        key={item.id}
-                        title={item.title}
-                        image={item.image}
-                        week={item.text}
-                        link={item.link}
-                    />
-                ))}
-            </div>
+            <AboutSection />
+            <FeaturesSection />
             <CTA
                 title='Ready To Forge Your Future?'
                 description='Join thousands of BC students discovering their perfect career in skilled trades through AI-powered simulations.'
