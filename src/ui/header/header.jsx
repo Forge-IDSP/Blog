@@ -4,7 +4,7 @@ import styles from "./header.module.css";
 import Button from "../button/button";
 import { scrollToSection } from "../../utils/scrollToSection";
 
-const Navbar = () => {
+const Navbar = ({ onForgeClick }) => {
     return (
         <nav className={styles.navbar}>
             <div className={styles.navbarContainer}>
@@ -96,7 +96,9 @@ const Navbar = () => {
                 </ul>
 
                 {/* CTA Button */}
-                <Button variant='primary'>Forge Your Future</Button>
+                <Button variant='primary' onClick={onForgeClick}>
+                    Forge Your Future
+                </Button>
             </div>
         </nav>
     );

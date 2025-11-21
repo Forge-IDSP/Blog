@@ -2,7 +2,7 @@ import React from "react";
 import styles from "./aboutSection.module.css";
 import Button from "../button/button";
 
-const AboutSection = () => {
+const AboutSection = ({ onTryClick }) => {
     return (
         <section className={styles.aboutSection}>
             <div className={styles.aboutContainer}>
@@ -24,8 +24,9 @@ const AboutSection = () => {
                     </p>
                     <Button
                         variant='primary'
-                        className={styles.learnMoreButton}>
-                        Learn More
+                        className={styles.learnMoreButton}
+                        onClick={onTryClick}>
+                        Try Forge Now
                     </Button>
                 </div>
                 <div className={styles.imageContent}>

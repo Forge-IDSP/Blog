@@ -2,7 +2,7 @@ import React from "react";
 import styles from "./howItWorks.module.css";
 import Button from "../button/button";
 
-const HowItWorks = () => {
+const HowItWorks = ({ onTryClick }) => {
     return (
         <section className={styles.howItWorks}>
             <div className={styles.howItWorksContainer}>
@@ -35,7 +35,8 @@ const HowItWorks = () => {
                     </p>
                     <Button
                         variant='primary'
-                        className={styles.tryNowButton}>
+                        className={styles.tryNowButton}
+                        onClick={onTryClick}>
                         Try Now
                     </Button>
                 </div>

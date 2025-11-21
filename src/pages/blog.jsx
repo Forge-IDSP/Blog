@@ -4,11 +4,15 @@ import Card from "../ui/card/card.jsx";
 import Footer from "../ui/footer/footer.jsx";
 import cardcontent from "../data/cardcontent.json";
 import CTA from "../ui/cta/cta";
+import Modal from "../ui/modal/modal.jsx";
+import { useLaunchModal } from "../hooks/useLaunchModal.js";
 
 export default function Blog() {
+    const { isModalOpen, openModal, closeModal } = useLaunchModal();
+
     return (
         <div className='page'>
-            <Header />
+            <Header onForgeClick={openModal} />
             <Hero
                 title='See behind the scenes'
                 subtitle='of the Forge design'
@@ -32,8 +36,15 @@ export default function Blog() {
                 description='Join thousands of BC students discovering their perfect career in skilled trades through AI-powered simulations.'
                 buttonText='Try Forge Now'
                 buttonVariant='secondary'
+                onButtonClick={openModal}
             />
             <Footer />
+            <Modal
+                isOpen={isModalOpen}
+                onClose={closeModal}
+                title='Coming Soon!'
+                message='Forge will be launching on December 5th. Stay tuned for an exciting new way to explore careers in skilled trades!'
+            />
         </div>
     );
 }
