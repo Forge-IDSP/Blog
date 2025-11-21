@@ -2,6 +2,8 @@ import Header from "../ui/header/header.jsx";
 import Hero from "../ui/hero/hero.jsx";
 import AboutSection from "../ui/aboutSection/aboutSection.jsx";
 import FeaturesSection from "../ui/featuresSection/featuresSection.jsx";
+import HowItWorks from "../ui/howItWorks/howItWorks.jsx";
+import LatestPosts from "../ui/latestPosts/latestPosts.jsx";
 import Footer from "../ui/footer/footer.jsx";
 import CTA from "../ui/cta/cta";
 
@@ -18,8 +20,16 @@ export default function Home() {
                     { text: "How it Works", variant: "secondary" },
                 ]}
             />
-            <AboutSection />
-            <FeaturesSection />
+            <div id='about'>
+                <AboutSection />
+            </div>
+            <div id='features'>
+                <FeaturesSection />
+            </div>
+            <div id='demo'>
+                <HowItWorks />
+            </div>
+            <LatestPosts />
             <CTA
                 title='Ready To Forge Your Future?'
                 description='Join thousands of BC students discovering their perfect career in skilled trades through AI-powered simulations.'

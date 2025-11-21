@@ -2,6 +2,7 @@ import React from "react";
 import { Link } from "react-router-dom";
 import styles from "./header.module.css";
 import Button from "../button/button";
+import { scrollToSection } from "../../utils/scrollToSection";
 
 const Navbar = () => {
     return (
@@ -64,10 +65,24 @@ const Navbar = () => {
                 {/* Navigation Links */}
                 <ul className={styles.navLinks}>
                     <li>
-                        <a href='#about'>About</a>
+                        <Link
+                            to='/'
+                            onClick={(e) => {
+                                e.preventDefault();
+                                scrollToSection('about');
+                            }}>
+                            About
+                        </Link>
                     </li>
                     <li>
-                        <a href='#features'>Features</a>
+                        <Link
+                            to='/'
+                            onClick={(e) => {
+                                e.preventDefault();
+                                scrollToSection('features');
+                            }}>
+                            Features
+                        </Link>
                     </li>
                     <li>
                         <Link to='/blog'>Blog</Link>

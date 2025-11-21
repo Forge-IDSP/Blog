@@ -27,7 +27,7 @@ const LatestPosts = ({ currentPostId = null }) => {
                         </p>
                     </div>
                     <Link 
-                        to="/" 
+                        to="/blog" 
                         className={styles.viewAllLink}
                         onClick={() => {
                             window.scrollTo({
