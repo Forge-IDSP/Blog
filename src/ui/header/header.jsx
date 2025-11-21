@@ -88,10 +88,15 @@ const Navbar = ({ onForgeClick }) => {
                         <Link to='/blog'>Blog</Link>
                     </li>
                     <li>
-                        <a href='#team'>Team</a>
+                        <Link to='/team'>Team</Link>
                     </li>
                     <li>
-                        <a href='#style-guide'>Style Guide</a>
+                        <a
+                            href='https://www.figma.com/proto/wjKad59FcjjUYrbksNSFto/Forge---App-MockUp?node-id=979-7383&t=j2a4H3sgP5vxxVYJ-1'
+                            target='_blank'
+                            rel='noopener noreferrer'>
+                            Style Guide
+                        </a>
                     </li>
                 </ul>
 
